@@ -1,0 +1,36 @@
+# =========================
+# PYTHON (Backend)
+# =========================
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+
+# ChromaDB (IMPORTANT - DO NOT COMMIT)
+backend/chroma_db/
+backend/chroma_db_langgraph/
+chroma_db/
+chroma_db_langgraph/
+*.sqlite3
+
+# Environment variables
+.env
+backend/.env
+backend/.env.*
+
+# =========================
+# NODE (Frontend)
+# =========================
+frontend/node_modules/
+frontend/dist/
+
+# =========================
+# LOGS / SYSTEM
+# =========================
+*.log
+.DS_Store
+
+# =========================
+# IDE / EDITORS
+# =========================
+.vscode/
+.idea/

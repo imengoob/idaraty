@@ -1,0 +1,25 @@
+.welcome-message {
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeSlideIn 1s forwards;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: #1f2937; /* gris foncé */
+}
+
+.welcome-sub {
+  opacity: 0;
+  transform: translateY(-10px);
+  animation: fadeSlideIn 1s forwards 0.5s; /* délai pour apparaître après le titre */
+  font-size: 1rem;
+  color: #4b5563; /* gris moyen */
+}
+
+@keyframes fadeSlideIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

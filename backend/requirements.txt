@@ -1,0 +1,45 @@
+# FastAPI
+fastapi>=0.100.0
+uvicorn[standard]>=0.27.0
+python-multipart
+
+# Database
+mysql-connector-python
+sqlalchemy
+
+# Auth
+python-jose[cryptography]
+passlib[bcrypt]
+python-dotenv
+email-validator
+
+# LangChain + Gemini
+langchain>=0.1.0
+langchain-google-genai
+langchain-community
+google-generativeai
+
+# 🆕 LangGraph - NOUVELLE DÉPENDANCE
+langgraph>=0.2.0
+
+# Vector Store
+chromadb
+sentence-transformers
+
+# Utils
+pydantic>=2.8.0
+pydantic-settings>=2.3.0
+
+# 🆕 Pour l'évaluation et comparaison
+pandas
+matplotlib
+seaborn
+scikit-learn
+# Déjà présent
+python-dotenv==1.0.0
+
+# Pour Google Maps
+googlemaps>=4.10.0
+
+# Si pas encore installé
+python-dotenv

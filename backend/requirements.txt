@@ -46,8 +46,8 @@ python-dotenv
 
 # 🆕 Nouvelles dépendances ajoutées
 sib-api-v3-sdk
-#arabic-reshaper
-#python-bidi
+arabic-reshaper
+python-bidi
 apscheduler
 langchain-text-splitters
 requests

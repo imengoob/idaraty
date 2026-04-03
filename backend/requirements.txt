@@ -31,7 +31,7 @@ pydantic>=2.8.0
 pydantic-settings>=2.3.0
 
 # 🆕 Pour l'évaluation et comparaison
-pandas
+
 matplotlib
 seaborn
 scikit-learn
@@ -46,8 +46,8 @@ python-dotenv
 
 # 🆕 Nouvelles dépendances ajoutées
 sib-api-v3-sdk
-arabic-reshaper
-python-bidi
+#arabic-reshaper
+#python-bidi
 apscheduler
 langchain-text-splitters
 requests

@@ -15,7 +15,11 @@ from scheduler import start_scheduler
 logging.basicConfig(level=logging.INFO)
 
 app = FastAPI(title=settings.APP_NAME, version="3.0.0")
-app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_credentials=True,
+app.add_middleware(CORSMiddleware,  allow_origins=[
+        "http://localhost:5173",
+        "https://idaraty.vercel.app",   # ← ton URL Vercel
+        "https://idaraty-*.vercel.app",  # ← previews Vercel
+    ], allow_credentials=True,
                    allow_methods=["*"], allow_headers=["*"])
 
 static_dir = os.path.join(os.path.dirname(__file__), "static")

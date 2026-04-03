@@ -43,3 +43,11 @@ googlemaps>=4.10.0
 
 # Si pas encore installé
 python-dotenv
+
+# 🆕 Nouvelles dépendances ajoutées
+sib-api-v3-sdk
+arabic-reshaper
+python-bidi
+apscheduler
+langchain-text-splitters
+requests

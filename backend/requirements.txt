@@ -13,10 +13,7 @@ passlib[bcrypt]
 python-dotenv
 email-validator
 
-# LangChain + Gemini
-langchain>=0.1.0
-langchain-google-genai
-langchain-community
+# LangChain + Gemini    
 google-generativeai
 
 # 🆕 LangGraph - NOUVELLE DÉPENDANCE
@@ -46,8 +43,8 @@ python-dotenv
 
 # 🆕 Nouvelles dépendances ajoutées
 sib-api-v3-sdk
-arabic-reshaper
-python-bidi
+#arabic-reshaper
+#python-bidi
 apscheduler
-langchain-text-splitters
+
 requests

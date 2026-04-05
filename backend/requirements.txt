@@ -2,7 +2,6 @@
 fastapi>=0.100.0
 uvicorn[standard]>=0.27.0
 python-multipart
-starlette
 
 # ── Database ──────────────────────────────────────────────────────────────────
 mysql-connector-python
@@ -22,8 +21,7 @@ langchain-text-splitters
 google-generativeai
 langgraph>=0.2.0
 
-# ── Embeddings (CPU ONLY — évite PyTorch GPU = 1.3 GB inutile) ───────────────
-# Torch CPU uniquement
+# ── Embeddings CPU only (évite CUDA 1.3 GB) ───────────────────────────────────
 --extra-index-url https://download.pytorch.org/whl/cpu
 torch
 sentence-transformers
@@ -36,7 +34,7 @@ chromadb
 sib-api-v3-sdk
 reportlab
 arabic-reshaper
-python-bidi
+python-bidi==0.4.2
 apscheduler
 
 # ── Maps ──────────────────────────────────────────────────────────────────────
